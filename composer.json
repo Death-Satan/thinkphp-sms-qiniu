@@ -1,0 +1,25 @@
+{
+    "name": "death_satan/thinkphp-sms-qiniu",
+    "description": "thinkphp6 sms qiniu 七牛云短信",
+    "type": "library",
+    "homepage": "https://www.cnblogs.com/death-satan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "death-satan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^6.0.0",
+        "death_satan/thinkphp-sms": "^1.0",
+        "qiniu/php-sdk": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SaTan\\Think\\Sms\\driver\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "keywords": ["thinkphp6","thinkphp composer组件扩展包","thinkphp6 qiniu sms","thinkphp 七牛云 短信","七牛云短信"]
+}
